@@ -1,3 +1,10 @@
+
+"Author : Tribikram Dhar
+"Date : 21.10.2021
+"A basic class with a method to calculate product of prices
+
+
+
 class Item:
     def calculate_total_price(self, x, y):
         return x*y
