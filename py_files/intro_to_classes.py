@@ -1,8 +1,9 @@
+"""
+Author : Tribikram Dhar
+Date : 21.10.2021
+A basic class with a method to calculate prices of products
 
-"Author : Tribikram Dhar
-"Date : 21.10.2021
-"A basic class with a method to calculate product of prices
-
+"""
 
 
 class Item:
