@@ -5,11 +5,10 @@ Date : 21.10.2021
 
 
 class Item:
-    #pay_rate = 0.9 #pay rate after 10% discount
     def __init__(self, name : str, price : float, quantity : int):
-        assert price >= 0 , f"Price {price} is not greater than zero"   # makes sure if the value is greater than zero
+        assert price >= 0 , f"Price {price} is not greater than zero"                              # makes sure if the value is greater than zero
         assert quantity >= 0 , f"Quantity {quantity} is not greater than zero"
-        self.name = name                       #attributes name,price,quantity
+        self.name = name                       #attributes :  name,price,quantity
         self.price = price
         self.quantity = quantity
 
