@@ -33,3 +33,8 @@ print(item2.calculate_total_price())
 print(Item.__dict__)                       # prints all attributes in class level
 print(item1.__dict__)                      # prints all attributes in instance level
 
+
+
+
+
+
